@@ -9,6 +9,8 @@ public class Group {
 	}
 	
 	public void loop() {
+		int solutions = 0;
+		int guesses = 0;
 		boolean reachedEnd = false;
 		while (!reachedEnd) {
 			// rotate cubes
@@ -20,10 +22,13 @@ public class Group {
 			
 			// have we found a solution?
 			if (isSolution()) {
+				solutions++;
+				System.out.println("Solution #" + solutions);
 				for (int i=0; i<cubes.length; i++) {
 					System.out.println("Cube " + (i+1) + ": ");
 					cubes[i].print();
 				}
+				System.out.println(""); // new line for clarity
 			}
 			
 			// determine if we have reached the end
@@ -35,7 +40,10 @@ public class Group {
 					break;
 				}
 			}
+			guesses++;
 		}
+		System.out.println("Number of solutions: " + solutions);
+		System.out.println("Number of guesses: " + guesses);
 	}
 	
 	public boolean isSolution() {
