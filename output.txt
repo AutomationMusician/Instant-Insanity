@@ -1,0 +1,353 @@
+Solution #1
+Cube 1: 
+	Up: g
+	Down: w
+	Left: r
+	Right: r
+	Back: u
+	Front: r
+	Iteration: 14
+	Orientation instructions: 
+		Yaw x3 (clockwise around the top face)
+		Pitch x2 (clockwise around the right face)
+Cube 2: 
+	Up: u
+	Down: r
+	Left: g
+	Right: w
+	Back: w
+	Front: u
+	Iteration: 1
+	Orientation instructions: 
+		Pitch x1 (clockwise around the right face)
+Cube 3: 
+	Up: r
+	Down: g
+	Left: u
+	Right: u
+	Back: g
+	Front: w
+	Iteration: 11
+	Orientation instructions: 
+		Yaw x2 (clockwise around the top face)
+		Pitch x3 (clockwise around the right face)
+Cube 4: 
+	Up: w
+	Down: u
+	Left: r
+	Right: w
+	Back: r
+	Front: g
+	Iteration: 0
+	Orientation instructions: 
+		No rotation
+
+Solution #2
+Cube 1: 
+	Up: r
+	Down: u
+	Left: r
+	Right: r
+	Back: g
+	Front: w
+	Iteration: 15
+	Orientation instructions: 
+		Yaw x3 (clockwise around the top face)
+		Pitch x3 (clockwise around the right face)
+Cube 2: 
+	Up: u
+	Down: w
+	Left: g
+	Right: w
+	Back: u
+	Front: r
+	Iteration: 2
+	Orientation instructions: 
+		Pitch x2 (clockwise around the right face)
+Cube 3: 
+	Up: w
+	Down: g
+	Left: u
+	Right: u
+	Back: r
+	Front: g
+	Iteration: 8
+	Orientation instructions: 
+		Yaw x2 (clockwise around the top face)
+Cube 4: 
+	Up: g
+	Down: r
+	Left: r
+	Right: w
+	Back: w
+	Front: u
+	Iteration: 1
+	Orientation instructions: 
+		Pitch x1 (clockwise around the right face)
+
+Solution #3
+Cube 1: 
+	Up: w
+	Down: g
+	Left: r
+	Right: r
+	Back: r
+	Front: u
+	Iteration: 12
+	Orientation instructions: 
+		Yaw x3 (clockwise around the top face)
+Cube 2: 
+	Up: r
+	Down: u
+	Left: g
+	Right: w
+	Back: u
+	Front: w
+	Iteration: 3
+	Orientation instructions: 
+		Pitch x3 (clockwise around the right face)
+Cube 3: 
+	Up: g
+	Down: r
+	Left: u
+	Right: u
+	Back: w
+	Front: g
+	Iteration: 9
+	Orientation instructions: 
+		Yaw x2 (clockwise around the top face)
+		Pitch x1 (clockwise around the right face)
+Cube 4: 
+	Up: u
+	Down: w
+	Left: r
+	Right: w
+	Back: g
+	Front: r
+	Iteration: 2
+	Orientation instructions: 
+		Pitch x2 (clockwise around the right face)
+
+Solution #4
+Cube 1: 
+	Up: u
+	Down: r
+	Left: r
+	Right: r
+	Back: w
+	Front: g
+	Iteration: 13
+	Orientation instructions: 
+		Yaw x3 (clockwise around the top face)
+		Pitch x1 (clockwise around the right face)
+Cube 2: 
+	Up: w
+	Down: u
+	Left: g
+	Right: w
+	Back: r
+	Front: u
+	Iteration: 0
+	Orientation instructions: 
+		No rotation
+Cube 3: 
+	Up: g
+	Down: w
+	Left: u
+	Right: u
+	Back: g
+	Front: r
+	Iteration: 10
+	Orientation instructions: 
+		Yaw x2 (clockwise around the top face)
+		Pitch x2 (clockwise around the right face)
+Cube 4: 
+	Up: r
+	Down: g
+	Left: r
+	Right: w
+	Back: u
+	Front: w
+	Iteration: 3
+	Orientation instructions: 
+		Pitch x3 (clockwise around the right face)
+
+Solution #5
+Cube 1: 
+	Up: g
+	Down: w
+	Left: r
+	Right: r
+	Back: r
+	Front: u
+	Iteration: 6
+	Orientation instructions: 
+		Yaw x1 (clockwise around the top face)
+		Pitch x2 (clockwise around the right face)
+Cube 2: 
+	Up: u
+	Down: r
+	Left: w
+	Right: g
+	Back: u
+	Front: w
+	Iteration: 11
+	Orientation instructions: 
+		Yaw x2 (clockwise around the top face)
+		Pitch x3 (clockwise around the right face)
+Cube 3: 
+	Up: r
+	Down: g
+	Left: u
+	Right: u
+	Back: w
+	Front: g
+	Iteration: 1
+	Orientation instructions: 
+		Pitch x1 (clockwise around the right face)
+Cube 4: 
+	Up: w
+	Down: u
+	Left: w
+	Right: r
+	Back: g
+	Front: r
+	Iteration: 8
+	Orientation instructions: 
+		Yaw x2 (clockwise around the top face)
+
+Solution #6
+Cube 1: 
+	Up: u
+	Down: r
+	Left: r
+	Right: r
+	Back: g
+	Front: w
+	Iteration: 7
+	Orientation instructions: 
+		Yaw x1 (clockwise around the top face)
+		Pitch x3 (clockwise around the right face)
+Cube 2: 
+	Up: w
+	Down: u
+	Left: w
+	Right: g
+	Back: u
+	Front: r
+	Iteration: 8
+	Orientation instructions: 
+		Yaw x2 (clockwise around the top face)
+Cube 3: 
+	Up: g
+	Down: w
+	Left: u
+	Right: u
+	Back: r
+	Front: g
+	Iteration: 2
+	Orientation instructions: 
+		Pitch x2 (clockwise around the right face)
+Cube 4: 
+	Up: r
+	Down: g
+	Left: w
+	Right: r
+	Back: w
+	Front: u
+	Iteration: 9
+	Orientation instructions: 
+		Yaw x2 (clockwise around the top face)
+		Pitch x1 (clockwise around the right face)
+
+Solution #7
+Cube 1: 
+	Up: w
+	Down: g
+	Left: r
+	Right: r
+	Back: u
+	Front: r
+	Iteration: 4
+	Orientation instructions: 
+		Yaw x1 (clockwise around the top face)
+Cube 2: 
+	Up: r
+	Down: u
+	Left: w
+	Right: g
+	Back: w
+	Front: u
+	Iteration: 9
+	Orientation instructions: 
+		Yaw x2 (clockwise around the top face)
+		Pitch x1 (clockwise around the right face)
+Cube 3: 
+	Up: g
+	Down: r
+	Left: u
+	Right: u
+	Back: g
+	Front: w
+	Iteration: 3
+	Orientation instructions: 
+		Pitch x3 (clockwise around the right face)
+Cube 4: 
+	Up: u
+	Down: w
+	Left: w
+	Right: r
+	Back: r
+	Front: g
+	Iteration: 10
+	Orientation instructions: 
+		Yaw x2 (clockwise around the top face)
+		Pitch x2 (clockwise around the right face)
+
+Solution #8
+Cube 1: 
+	Up: r
+	Down: u
+	Left: r
+	Right: r
+	Back: w
+	Front: g
+	Iteration: 5
+	Orientation instructions: 
+		Yaw x1 (clockwise around the top face)
+		Pitch x1 (clockwise around the right face)
+Cube 2: 
+	Up: u
+	Down: w
+	Left: w
+	Right: g
+	Back: r
+	Front: u
+	Iteration: 10
+	Orientation instructions: 
+		Yaw x2 (clockwise around the top face)
+		Pitch x2 (clockwise around the right face)
+Cube 3: 
+	Up: w
+	Down: g
+	Left: u
+	Right: u
+	Back: g
+	Front: r
+	Iteration: 0
+	Orientation instructions: 
+		No rotation
+Cube 4: 
+	Up: g
+	Down: r
+	Left: w
+	Right: r
+	Back: u
+	Front: w
+	Iteration: 11
+	Orientation instructions: 
+		Yaw x2 (clockwise around the top face)
+		Pitch x3 (clockwise around the right face)
+
+Number of solutions: 8
+Number of guesses: 331776
