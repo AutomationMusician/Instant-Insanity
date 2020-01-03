@@ -6,6 +6,7 @@ public class Group {
 	public Group(Cube[] cubes) 
 	{
 		this.cubes = cubes;
+		cubes[cubes.length - 1].setLast(); // set the last cube in the list to have the last=true
 	}
 	
 	public void loop() {

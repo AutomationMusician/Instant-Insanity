@@ -2,6 +2,7 @@
 public class Cube
 {
 	private int iteration = 0;
+	private boolean last = false;
 	private char startUp, startDown, startLeft, startRight, startBack, startFront;
 	public char up, down, left, right, back, front;
 	
@@ -58,6 +59,15 @@ public class Cube
 	}
 	
 	public void rotate() {
+		if (!last) {
+			standardRotate();
+		} else {
+			lastRotate();
+		}
+	}
+	
+	// standard rotate method
+	private void standardRotate() {
 		iteration++;
 		if (iteration == 24) {
 			iteration = 0;
@@ -75,6 +85,30 @@ public class Cube
 				roll();
 			}
 		}
+	}
+
+	// rotations for the last cube (does not pitch to avoid duplicate solutions)
+	private void lastRotate() {
+		iteration++;
+		if (iteration == 6) {
+			iteration = 0;
+			initialize();
+		} else {
+			pitch();
+			if (iteration < 4) {
+				yaw();
+			} else if (iteration == 4) {
+				yaw();
+				roll();
+			} else if (iteration == 5) {
+				roll();
+				roll();
+			}
+		}
+	}
+
+	public void setLast() {
+		last = true;
 	}
 	
 	public void print() {
@@ -113,14 +147,25 @@ public class Cube
 		StringBuilder bldr = new StringBuilder(); // this makes a variable size string
 		int numYaw = 0;
 		int numRoll = 0;
-		int numPitch = iteration % 4;
+		int numPitch = 0;
 		
-		if (iteration < 16) {
-			numYaw = iteration / 4;
-		} else if (iteration >= 16 && iteration < 20) {
-			numRoll = 1;
+		if (!last) {
+			numPitch = iteration % 4;
+			if (iteration < 16) {
+				numYaw = iteration / 4;
+			} else if (iteration >= 16 && iteration < 20) {
+				numRoll = 1;
+			} else {
+				numRoll = 3;
+			}
 		} else {
-			numRoll = 3;
+			if (iteration < 4) {
+				numYaw = iteration;
+			} else if (iteration == 4) {
+				numRoll = 1;
+			} else {
+				numRoll = 3;
+			}
 		}
 		
 		if (numRoll != 0)
